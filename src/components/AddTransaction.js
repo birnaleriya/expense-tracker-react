@@ -1,7 +1,7 @@
 import React from 'react'
-export const AddTransaction = () {
+export const AddTransaction = () => {
     return (
-        <>
+        <div>
             <h3>Add new Transaction</h3>
             <form>
                 <div className="form-control">
@@ -17,7 +17,7 @@ export const AddTransaction = () {
                 </div>
                 <button className="btn">Add Transaction</button>
             </form>
-        </>
-
+        </div>
     )
+
 }
